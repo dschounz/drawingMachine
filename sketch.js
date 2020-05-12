@@ -12,6 +12,7 @@ function draw() {
 
   if(mouseIsPressed){
     //line(mouseX, mouseY, pmouseX, pmouseY); //drawing line
+    background(0);
     array.push([mouseX, mouseY]);
   }
 }
@@ -23,7 +24,8 @@ function keyTyped(){
     saveCanvas('fileName', 'png');
   } else if (key === 'd'){
     //display image
-
+    background(255);
+    
     beginShape();
     for(let i=0, i < array.length; i++){
       //line(array[i][0], array[i][1],array[i+1][0], array[i+1][1]);
