@@ -21,9 +21,9 @@ function keyTyped(){
   } else if (key === 'd'){
     //display image
     for(let i=0, i < array.length; i++){
-      console.log(i);
+      line(array[i][0], array[i][1],array[i+1][0], array[i+1][1] )
+
     }
-    line(array[0][0], array[0][1],array[1][0], array[1][1] )
   }
   return false;
 }
