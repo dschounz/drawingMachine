@@ -1,5 +1,5 @@
 let array =
-let backgroundColor = 200;
+var backgroundColor = 200;
 
 function setup() {
   createCanvas(600, 600);
