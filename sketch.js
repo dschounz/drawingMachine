@@ -2,7 +2,7 @@ let array;
 var backgroundColor = 200;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   background(backgroundColor);
 
   strokeWeight(5);
