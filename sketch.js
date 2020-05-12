@@ -8,7 +8,8 @@ function setup() {
 function draw() {
 
   if(mouseIsPressed){
-  //  line(mouseX, mouseY, pmouseX, pmouseY);
+    line(mouseX, mouseY, pmouseX, pmouseY); //drawing line
+    array.push([mouseX, mouseY]);
   }
 }
 
@@ -19,6 +20,10 @@ function keyTyped(){
     saveCanvas('fileName', 'png');
   } else if (key === 'd'){
     //display image
+    for(let i=0, i < array.length; i++){
+      console.log(i);
+    }
+    line(array[0][0], array[0][1],array[1][0], array[1][1] )
   }
   return false;
 }
