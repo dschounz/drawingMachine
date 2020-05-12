@@ -44,3 +44,11 @@ function keyTyped(){
   }
   return false;
 }
+
+function mousePressed(){
+
+  arrayt = [];
+  backgroundColor=200;
+
+
+}
