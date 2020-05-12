@@ -48,7 +48,7 @@ function keyTyped(){
 function mousePressed(){
 
   arrayt = [];
-  backgroundColor=200;
+  backgroundColor=255;
 
 
 }
