@@ -8,7 +8,7 @@ function setup() {
 function draw() {
 
   if(mouseIsPressed){
-    line(mouseX, mouseY, pmouseX, pmouseY);
+  //  line(mouseX, mouseY, pmouseX, pmouseY);
   }
 }
 
@@ -17,6 +17,8 @@ function keyTyped(){
   if(key== 's'){
     //save this image
     saveCanvas('fileName', 'png');
+  } else if (key === 'd'){
+    //display image
   }
   return false;
 }
