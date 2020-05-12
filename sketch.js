@@ -2,7 +2,7 @@ let array = [];
 
 function setup() {
   createCanvas(600, 600);
-  background(220, 190, 160);
+  background(255);
 
   strokeWeight(5);
   noFill();
@@ -11,7 +11,7 @@ function setup() {
 function draw() {
 
   if(mouseIsPressed){
-    line(mouseX, mouseY, pmouseX, pmouseY); //drawing line
+    //line(mouseX, mouseY, pmouseX, pmouseY); //drawing line
     array.push([mouseX, mouseY]);
   }
 }
