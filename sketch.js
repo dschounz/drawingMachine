@@ -1,4 +1,4 @@
-let array =
+let array;
 var backgroundColor = 200;
 
 function setup() {
