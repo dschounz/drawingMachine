@@ -42,6 +42,10 @@ function keyTyped(){
     }
     endShape();
   }
+  if(key=== 'c'){
+    //clear this image
+    clear();
+  }
   return false;
 }
 
