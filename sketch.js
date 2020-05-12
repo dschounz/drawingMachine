@@ -1,8 +1,9 @@
-let array = [];
+let array =
+let backgroundColor = 200;
 
 function setup() {
   createCanvas(600, 600);
-  background(220);
+  background(backgroundColor);
 
   strokeWeight(5);
   noFill();
@@ -12,7 +13,8 @@ function draw() {
 
   if(mouseIsPressed){
     //line(mouseX, mouseY, pmouseX, pmouseY); //drawing line
-    background(0);
+    background(backgroundColor);
+    backgroundcolor--;
     array.push([mouseX, mouseY]);
   }
 }
