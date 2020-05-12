@@ -14,7 +14,7 @@ function draw() {
   if(mouseIsPressed){
     //line(mouseX, mouseY, pmouseX, pmouseY); //drawing line
     background(backgroundColor);
-    backgroundcolor-=3;
+    backgroundcolor-=5;
     array.push([mouseX, mouseY]);
 
     beginShape();
